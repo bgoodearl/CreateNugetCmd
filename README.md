@@ -2,6 +2,10 @@
 
 Console program to create a .CMD file that will register a local NuGet package.
 
+## 2025 Upgrade to use .NET 8
+
+Updated to use .NET 8 because of retirement of .NET 6
+
 ## 2022 Upgrade to use .NET 6
 
 Upgraded project to use appsettings.json instead of App.config.
@@ -27,12 +31,12 @@ Then set up projects that are going to use this as follows:
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <Product>Local NuGet Demo</Product>
     <AssemblyName>Test.Models</AssemblyName>
 	<AssemblyTitle>Test Models</AssemblyTitle>
-    <Version>6.0.2201.09170</Version>
-    <AssemblyVersion>6.0.2201.09170</AssemblyVersion>
+    <Version>8.0.2501.03010</Version>
+    <AssemblyVersion>8.0.2501.03010</AssemblyVersion>
 	<PackageId>Test.Models</PackageId>
 	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <IncludeSymbols>true</IncludeSymbols>
